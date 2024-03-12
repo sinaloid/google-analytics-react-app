@@ -10,6 +10,7 @@ function App() {
   useEffect(() => {
     ReactGA.initialize('G-LXVYZMKL8H')
     ReactGA.pageview("/")
+    alert("app")
   },[])
 
   return (
